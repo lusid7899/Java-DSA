@@ -1,10 +1,10 @@
-
-public class SimpleInterest {
+import java.util.Scanner;
+public class add2num {
 
 	public static void main(String[] args) {
-		int p=2000,r=10,t=3,si;
-		si=p*r*t/100;
-		System.out.println(si);
+		Scanner s = new Scanner(System.in);
+int i=s.nextInt(),j=s.nextInt(),k;
+k = j+i;
+System.out.println(k);
 	}
-
 }
